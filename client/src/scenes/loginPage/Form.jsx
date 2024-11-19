@@ -93,7 +93,7 @@ const Form = () => {
           token: loggedIn.token,
         })
       );
-      navigate("/home");
+      navigate("https://full-stack-social-media-app-xhml.onrender.com/home");
     }
   };
 
