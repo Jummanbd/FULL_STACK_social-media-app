@@ -69,7 +69,7 @@ mongoose
 
     /* ADD DATA ONE TIME */
     /* some post  */
-       User.insertMany(users);
-       Post.insertMany(posts);
+       // User.insertMany(users);
+       // Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
