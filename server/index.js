@@ -58,7 +58,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT;
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
