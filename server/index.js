@@ -53,12 +53,8 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 6001;
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
@@ -69,7 +65,7 @@ mongoose
 
     /* ADD DATA ONE TIME */
     /* some post  */
-       // User.insertMany(users);
-       // Post.insertMany(posts);
+      //  User.insertMany(users);
+      //  Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
