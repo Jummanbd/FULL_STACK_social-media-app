@@ -56,7 +56,13 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+        <img
+        width="50px"
+        height="auto"
+        alt="advert"
+        src="/assets/logo.png"
+       
+      />
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween

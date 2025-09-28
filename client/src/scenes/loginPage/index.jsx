@@ -12,9 +12,13 @@ const LoginPage = () => {
         p="1rem 6%"
         textAlign="center"
       >
-        <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
-        </Typography>
+        <img
+        width="50px"
+        height="auto"
+        alt="advert"
+        src="/assets/logo.png"
+       
+      />
       </Box>
 
       <Box
